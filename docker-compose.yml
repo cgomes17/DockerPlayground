@@ -6,3 +6,10 @@ services:
     build:
       context: .
       dockerfile: PublicWeb\Dockerfile
+
+  adminweb:
+    image: adminweb
+    build:
+      context: .
+      dockerfile: AdminWeb\Dockerfile
+
